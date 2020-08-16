@@ -1,6 +1,6 @@
 const debug = require('debug')('app:inicio'); 
 // const dbDebug = require('debug')('app:db');
-const usuarios = require('./routes/usuarios')
+const usuarios = require('./routes/usuarios');
 const express = require('express');
 // const logger = require('./logger');
 const morgan = require('morgan');

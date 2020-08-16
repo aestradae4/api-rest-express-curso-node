@@ -99,5 +99,4 @@ function validarUsuario(nom){
     });
     return(schema.validate({ nombre: nom }));
 }
-
 module.exports = ruta;
